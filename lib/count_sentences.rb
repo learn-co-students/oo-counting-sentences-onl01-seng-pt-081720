@@ -16,6 +16,5 @@ class String
 
   def count_sentences
     self.split(/[.?!]+/).count # split then use regex to help find symbols (.?!) - returns 0 if no sentence
-    binding.pry
   end
 end
